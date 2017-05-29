@@ -1,12 +1,12 @@
 # ChapChap_SQL-Operations
 A light weight PHP library for performing brisk SQL operations
----------------------------------------------------------------------------------------------------------------------
-|-------------------------------------------------------------------------------------------------------------------|
-|      swift_sql v0.02                                                                                              |
-|-------------------------------------------------------------------------------------------------------------------|
-|            * Created by Kelvin Kamau (www.kelvinkamau.com)                                                        |
-|            * Distributed under the Open Source License                                                            |
-|-------------------------------------------------------------------------------------------------------------------|
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Swift_SQL v0.02                                                                                              
+-------------------------------------------------------------------------------------------------------------------
+* Created by Kelvin Kamau (www.kelvinkamau.com)                                                        
+* Distributed under the Open Source License                                                            
+-------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------
 
 0. Foreword:
@@ -20,20 +20,20 @@ A light weight PHP library for performing brisk SQL operations
 
 1. USE:
  1.1 Getting Started - Setting up a sample environment
-    - To use this library, you need a sample database. An example has been provided in the root directory (sample_db.sql)
-    - Simply create a new database in your server, and import the file 'sample_db.sql'. Note that for my environment, am using PHP Version: 7.0.8
-    - The 'core' folder contains a database connection file, and a file with functions for executing swift database functions.
-    - Update the credentials in the 'db_connect.php' to match the ones in your local server so as to allow a successful database connection.
-    - The 'core' folder contains two versions of the main library, 'swift_db.php' - use the minimized version for production and the latter for development purposes.
+  - To use this library, you need a sample database. An example has been provided in the root directory (sample_db.sql)
+  - Simply create a new database in your server, and import the file 'sample_db.sql'. Note that for my environment, am using PHP Version: 7.0.8
+  - The 'core' folder contains a database connection file, and a file with functions for executing swift database functions.
+  - Update the credentials in the 'db_connect.php' to match the ones in your local server so as to allow a successful database connection.
+  - The 'core' folder contains two versions of the main library, 'swift_db.php' - use the minimized version for production and the latter for development purposes.
 
   1.2 Using & Reusing The code
-    - In the root folder, the file 'index.php' contains sample code that illustrate the using of this library.
-    - To illustrate a function's usage, simply uncomment the lines of code which follow the line commented out as /* .. */
+  - In the root folder, the file 'index.php' contains sample code that illustrate the using of this library.
+  - To illustrate a function's usage, simply uncomment the lines of code which follow the line commented out as /* .. */
         e.g   1.  /* SELECT column_names FROM table_name */
               2.  // $query = select("hello_world", ['id', 'name', 'random'], []);
               3.  // print_results($query);
-           Here, simply uncomment the second & third lines (the lines commented out with a '//')
-    - To reuse the code, all you need is a copy of the main library 'swift_sql.php' and the connection file.
+              Here, simply uncomment the second & third lines (the lines commented out with a '//')
+  - To reuse the code, all you need is a copy of the main library 'swift_sql.php' and the connection file.
 
 2. HELP & CONTRIBUTIONS:
   - If you have any questions regarding this library or how to use it, simply get in touch with me via Email holla@kelvinkamau.com.
@@ -42,4 +42,4 @@ A light weight PHP library for performing brisk SQL operations
   - The main library will be updated to reflect all helpful contributions, and the contributors will be duly recognized.
   
  3. SPECIAL THANKS
- Thanks to partner Flavia Macharia for her continued support.
+ Thanks to my partner Flavia Macharia for her continued support.
