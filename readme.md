@@ -33,6 +33,7 @@ Swift_SQL v0.02
   1.  /* SELECT column_names FROM table_name */
   2.  // $query = select("hello_world", ['id', 'name', 'random'], []);
   3.  // print_results($query);
+  
   Here, simply uncomment the second & third lines (the lines commented out with a '//')
   - To reuse the code, all you need is a copy of the main library 'swift_sql.php' and the connection file.
 
