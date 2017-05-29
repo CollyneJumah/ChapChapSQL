@@ -36,7 +36,10 @@ A light weight PHP library for performing brisk SQL operations
     - To reuse the code, all you need is a copy of the main library 'swift_sql.php' and the connection file.
 
 2. HELP & CONTRIBUTIONS:
-  - If you have any questions regarding this library or how to use it, simply get in touch with me via Twitter @KelvinKamau_.
+  - If you have any questions regarding this library or how to use it, simply get in touch with me via Email holla@kelvinkamau.com.
   - This is an open source project; as such, contributions are highly appreciated and welcome.
   - If you need to make a contribution to this project, simply make a pull request on the Github folder.
   - The main library will be updated to reflect all helpful contributions, and the contributors will be duly recognized.
+  
+ 3. SPECIAL THANKS
+ Thanks to partner Flavia Macharia for her continued support.
