@@ -28,8 +28,9 @@ Swift_SQL v0.02
 
   1.2 Using & Reusing The code
   - In the root folder, the file 'index.php' contains sample code that illustrate the using of this library.
-  - To illustrate a function's usage, simply uncomment the lines of code which follow the line commented out as /* .. */
-  e.g   1.  /* SELECT column_names FROM table_name */
+  - To illustrate a function's usage, simply uncomment the lines of code which follow the line commented out as /* .. */ 
+  e.g
+  1.  /* SELECT column_names FROM table_name */
   2.  // $query = select("hello_world", ['id', 'name', 'random'], []);
   3.  // print_results($query);
   Here, simply uncomment the second & third lines (the lines commented out with a '//')
