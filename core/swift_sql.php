@@ -1,17 +1,17 @@
 <?php
 /*
--------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------
-Swift SQL                                                                                                 
-------------------------------------------------------------------------------------------------------------------
-* Created by Kelvin Kamau                                                               
-* Distributed under the Open Source License                                                           
-* For instructions on how to use this library, open the 'readme.md' file in the root directory        
--------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+|-------------------------------------------------------------------------------------------------------------------|
+|	  Swift SQL                                                                                                 |
+|-------------------------------------------------------------------------------------------------------------------|
+|            * Created by Kelvin Kamau                                                                |
+|            * Distributed under the Open Source License                                                            |
+|            * For instructions on how to use this library, open the 'readme.md' file in the root directory         |
+|-------------------------------------------------------------------------------------------------------------------|
+---------------------------------------------------------------------------------------------------------------------
 */
 function alter($table_name, $column_name, $type) {
-	/* --------------------------------------------------------------------------------------------------------
+	/* -------------------------------------------------------------------------------------------------------------
 	FUNCTION ONE: alter table and add columns
 		ABOUT:
 		- This function alters the existing table and adds a new column
@@ -32,7 +32,6 @@ function alter($table_name, $column_name, $type) {
 		echo "Error: " . $e->getMessage();
 	}
 }
-
 function select($table_name, $select_data, $select_queries, $order_column = "", $order_query = "") {
 	/* -------------------------------------------------------------------------------------------------------------
 	FUNCTION TWO: select data from a table
@@ -81,11 +80,11 @@ function select($table_name, $select_data, $select_queries, $order_column = "", 
 		return $data;
 	}
 	catch(PDOException $e) {
-		// return error message if operation failed
-		echo "Error: " . $e->getMessage();
+		// return an empty array message if operation failed
+		return $data;
+		
 	}
 }
-
 function select2($table_name, $select_data, $clause="") {
 	/* -------------------------------------------------------------------------------------------------------------
 	FUNCTION THREE: advanced select data from a table
@@ -124,11 +123,10 @@ function select2($table_name, $select_data, $clause="") {
 		return $data;
 	}
 	catch(PDOException $e) {
-		// return error message if operation failed
-		echo "Error: " . $e->getMessage();
+		// return an empty array if operation failed
+		return $data;
 	}
 }
-
 function delete($table_name, $column_name, $id_name) {
 	/* -------------------------------------------------------------------------------------------------------------
 	FUNCTION FOUR: delete data from a table
@@ -154,7 +152,6 @@ function delete($table_name, $column_name, $id_name) {
 		echo "Error: " . $e->getMessage();
 	}
 }
-
 function update($table_name, $update_data, $update_queries) {
 	/* -------------------------------------------------------------------------------------------------------------
 	FUNCTION FIVE: update data records in a table
@@ -189,7 +186,6 @@ function update($table_name, $update_data, $update_queries) {
 		echo "Error: " . $e->getMessage();
 	}
 }
-
 function insert($table_name, $insert_data) {
 	/* -------------------------------------------------------------------------------------------------------------
 	FUNCTION SIX: insert data records into a table
@@ -232,7 +228,6 @@ function insert($table_name, $insert_data) {
 		echo "Error: " . $e->getMessage();
 	}
 }
-
 function print_results($data) {
 	/* -------------------------------------------------------------------------------------------------------------
 	BONUS FUNCTION: print results from an execution
