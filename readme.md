@@ -29,10 +29,10 @@ Swift_SQL v0.02
   1.2 Using & Reusing The code
   - In the root folder, the file 'index.php' contains sample code that illustrate the using of this library.
   - To illustrate a function's usage, simply uncomment the lines of code which follow the line commented out as /* .. */ 
-  e.g
-  1.  /* SELECT column_names FROM table_name */
-  2.  // $query = select("hello_world", ['id', 'name', 'random'], []);
-  3.  // print_results($query);
+  e.g ```
+  1. /* SELECT column_names FROM table_name */
+  2. // $query = select("hello_world", ['id', 'name', 'random'], []);
+  3. // print_results($query);```
   
   Here, simply uncomment the second & third lines (the lines commented out with a '//')
   - To reuse the code, all you need is a copy of the main library 'swift_sql.php' and the connection file.
@@ -44,4 +44,4 @@ Swift_SQL v0.02
   - The main library will be updated to reflect all helpful contributions, and the contributors will be duly recognized.
   
  3. SPECIAL THANKS
- Thanks to my partner Flavia Macharia for her continued support.
+  - Thanks to my partner Flavia Macharia for her continued support.
