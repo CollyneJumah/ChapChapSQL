@@ -7,6 +7,7 @@ Swift_SQL v0.02
 * Created by Kelvin Kamau (www.kelvinkamau.com)                                                        
 * Distributed under the Open Source License                                                            
 -------------------------------------------------------------------------------------------------------------------
+![chapchap.io](ChapChap_SQL_Operations/chapchap1.png)
 ---------------------------------------------------------------------------------------------------------------------
 
 0. Foreword:
