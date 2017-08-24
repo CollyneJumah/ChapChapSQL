@@ -9,7 +9,7 @@ A light weight PHP library for performing brisk SQL operations.
 -------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------
 
-### 0. Foreword:
+## 0. Foreword:
   - This library is created with the objective of reducing the amount of code one has to write in order to connect to and perform operations on a database.
       e.g. to select data from a database in a specific format or update the data in a database table.
   - To achieve this, the library uses the PDO approach and an object-oriented approach in the PHP Language.
