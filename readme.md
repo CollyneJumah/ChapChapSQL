@@ -1,13 +1,12 @@
 # ChapChap_SQL_Operations
-A light weight PHP library for performing brisk SQL operations
+A light weight PHP library for performing brisk SQL operations.
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
-Swift_SQL v0.02                                                                                              
+ChapChap_SQL v2.0.0                                                                                              
 -------------------------------------------------------------------------------------------------------------------
 * Created by Kelvin Kamau (www.kelvinkamau.com)                                                        
 * Distributed under the Open Source License                                                            
 -------------------------------------------------------------------------------------------------------------------
-![chapchap.io](https://github.com/kelvinkamau/ChapChap_SQL_Operations/blob/master/chapchap1.png)
 ---------------------------------------------------------------------------------------------------------------------
 
 0. Foreword:
@@ -31,6 +30,7 @@ Swift_SQL v0.02
   - In the root folder, the file 'index.php' contains sample code that illustrate the using of this library.
   - To illustrate a function's usage, simply uncomment the lines of code which follow the line commented out as /* .. */ 
   e.g 
+  
   ```sql
   1. /* SELECT column_names FROM table_name */
   2. // $query = select("hello_world", ['id', 'name', 'random'], []);
