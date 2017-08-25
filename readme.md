@@ -50,4 +50,4 @@ A light weight PHP library for performing brisk SQL operations.
   
   ---------------------------------------------------------------------------------------------------------------------
   
- #### © [Kelvin Kamau](https://www.kelvinkamau.com) | Founder [@ChapChap.IO](https://www.kelvinkamau.com/sandbox) | Managing Director at SteamCafeNBO®
+ #### © [Kelvin Kamau](https://www.kelvinkamau.com) | Founder [@ChapChap.IO](https://www.kelvinkamau.com/sandbox) | Managing Director at SteamCaféNBO®
