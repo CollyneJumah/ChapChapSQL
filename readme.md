@@ -46,7 +46,7 @@ A light weight PHP library for performing brisk SQL operations.
   - The main library will be updated to reflect all helpful contributions, and the contributors will be duly recognized.
   
  ## 3. SPECIAL THANKS
-  - Thanks to my partner Flavia Macharia ❤ for her unbowing support, great inside and contribution.
+  - Thanks to my partner Flavia Macharia ❤ for her unbowing support, great insight and contribution.
   
   ---------------------------------------------------------------------------------------------------------------------
   
