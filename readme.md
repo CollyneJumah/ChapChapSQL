@@ -4,7 +4,7 @@ A light weight PHP library for performing brisk SQL operations.
 -------------------------------------------------------------------------------------------------------------------
 ### ☲ ChapChapSQL v2.0.0                                                                                              
 -------------------------------------------------------------------------------------------------------------------
-* Created by Kelvin Kamau (www.kelvinkamau.com)                                                        
+* Created by [Kelvin Kamau](https://www.kelvinkamau.com)                                                        
 * Distributed under the Open Source License                                                            
 -------------------------------------------------------------------------------------------------------------------
 
@@ -50,4 +50,4 @@ A light weight PHP library for performing brisk SQL operations.
   
   ---------------------------------------------------------------------------------------------------------------------
   
-  © [Kelvin Kamau](www.kelvinkamau.com)
+  © [Kelvin Kamau](https://www.kelvinkamau.com) | Founder [@ChapChap.IO](https://www.kelvinkamau.com/sandbox) | Owner & CEO of SteamCafeNBO
